@@ -1,0 +1,15 @@
+{
+  "receipt_id": "rct_demo_001",
+  "timestamp": "2026-02-10T00:00:00Z",
+  "actor": { "type": "agent", "id": "demo-agent" },
+  "request": {
+    "tool": "drive.share",
+    "inputs": { "file": "Q4-Financials.pdf", "recipient": "externaluser@gmail.com" }
+  },
+  "decision": {
+    "result": "DENY",
+    "policy_rule_id": "deny_external_share",
+    "reason": "External sharing is not allowed."
+  },
+  "outcome": { "executed": false, "status": "blocked_pre_execution" }
+}
