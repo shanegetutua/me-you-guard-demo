@@ -1,4 +1,4 @@
-# Me-You-Guard (Demo) — Golden Ticket OSS Entry
+# Me-You-Guard (Demo) — Golden Ticket OSS entry
 
 A **pre-execution policy gate** for tool-using agents: **allow / deny / require approval** before high-impact actions run, and emit an **audit trail** per action (Request → Decision → Outcome).
 
