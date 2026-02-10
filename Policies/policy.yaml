@@ -1,8 +1,0 @@
-version: 1
-rules:
-  - id: deny_external_share
-    when:
-      tool: "drive.share"
-      recipient_domain_not_in: ["company.com"]
-    decision: "DENY"
-    reason: "External sharing is not allowed."
