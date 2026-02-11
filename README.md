@@ -18,7 +18,7 @@ A **pre-execution policy gate** for tool-using agents: **ALLOW / DENY / REQUIRE 
 
 ---
 
-## What the demo shows (outcomes only)
+## What the demo shows
 
 For an attempted high-impact action, the demo produces:
 
@@ -49,7 +49,7 @@ This demo uses **NVIDIA Nemotron via NIM** to generate **human-readable explanat
 
 ---
 
-## How to evaluate (without disclosure)
+## How to evaluate
 
 This repository is intended to be evaluated by **observable behavior**, not internals:
 
